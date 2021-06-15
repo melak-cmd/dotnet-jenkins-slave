@@ -1,4 +1,4 @@
-FROM openshift3/jenkins-slave-base-rhel7
+FROM registry.redhat.io/openshift4/ose-jenkins-agent-base
 
 # Labels consumed by Red Hat build service
 LABEL com.redhat.component="rh-dotnet31-jenkins-slave-container" \
